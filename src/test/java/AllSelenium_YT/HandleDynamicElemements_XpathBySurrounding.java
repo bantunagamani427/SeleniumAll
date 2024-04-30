@@ -28,10 +28,5 @@ public class HandleDynamicElemements_XpathBySurrounding {
 		String price=driver.findElement(By.xpath("//div[text()=\"Apple iPhone 15 (Blue, 128 GB)\"]/../following-sibling::div/div/div/div[@class=\"_30jeq3 _1_WHN1\"]")).getText();
 		System.out.println("Dynamic element is price: "+price);	
 
-
-
-
 	}
-
-
 }
